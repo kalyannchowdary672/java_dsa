@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+package javabasics;
+
 import java.util.Scanner;
 
 public class Inputs {
