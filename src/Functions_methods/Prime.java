@@ -7,6 +7,7 @@ public class Prime {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         boolean ans = isPrime(n);
+
         System.out.println(ans);
 
     }
