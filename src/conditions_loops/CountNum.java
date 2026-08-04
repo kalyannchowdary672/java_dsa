@@ -20,7 +20,7 @@ public class CountNum {
 
         //without taking input
 
-        int n = 33436;
+        int n = 334336;
         int count = 0;
         while(n > 0){
             int rem = n % 10;
