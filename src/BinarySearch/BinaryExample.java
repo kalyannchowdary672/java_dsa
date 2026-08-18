@@ -12,7 +12,7 @@ public class BinaryExample {
     //if not return -1
     static int  BinarySearch(int[] arr , int target){
         int start = 0;
-        int end = arr.length;
+        int end = arr.length-1;
 
         while(start <= end){
             //find the mid element
