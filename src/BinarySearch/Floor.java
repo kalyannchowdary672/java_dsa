@@ -2,7 +2,7 @@ package BinarySearch;
 
 public class Floor{
     public static void main(String[] args) {
-        int[] arr = {3, 6, 8, 9, 10, 33, 56, 78, 80};
+        int[] arr = {3, 6, 8, 9, 10, 33,78, 80};
         int target = 34;
         int ans = Floor(arr, target);
         System.out.print(ans);
