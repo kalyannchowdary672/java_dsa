@@ -10,19 +10,19 @@ public class GuessNoIsHigherOrLower {
 //     * int guess(int num);
 //     */
 
-//    public class Solution extends guess{
-        public int guessNumber(int n){
+
+        public int guessNumber(int n) {
             int start = 0;
             int end = n;
             int ans = 0;
-            while(start <= end){
-                int mid = start + (end - start)/2;
+            while (start <= end) {
+                int mid = start + (end - start) / 2;
                 ans = (mid);
-                if(ans == 0){
+                if (ans == 0) {
                     return mid;
-                }else if(ans == -1){
+                } else if (ans == -1) {
                     end = mid - 1;
-                }else{
+                } else {
                     start = mid + 1;
                 }
 
@@ -32,5 +32,6 @@ public class GuessNoIsHigherOrLower {
         }
 
     }
+
 
 
