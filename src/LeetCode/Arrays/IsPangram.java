@@ -1,4 +1,4 @@
-package LeetCode.Arrays.Arrays;
+package LeetCode.Arrays;
 
 public class IsPangram {
     class Solution {
