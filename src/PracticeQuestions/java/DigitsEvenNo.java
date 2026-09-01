@@ -13,6 +13,6 @@ public class DigitsEvenNo {
            n = n/10;
        }
 
-        System.out.println(count);
+        System.out.print(count);
     }
 }
