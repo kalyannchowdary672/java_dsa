@@ -3,7 +3,7 @@ package PracticeQuestions.java;
 public class DigitsEvenNo {
     public static void main(String[] args) {
 
-      int n = 583266;
+      int n = 522266;
       int count =0;
        while(n > 0) {
            int digit = n % 10;
