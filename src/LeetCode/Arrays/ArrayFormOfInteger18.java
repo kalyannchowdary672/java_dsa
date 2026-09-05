@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class ArrayFormOfInteger{
+public class ArrayFormOfInteger18{
     class Solution {
         public List<Integer> addToArrayForm(int[] num, int k){
             List<Integer> ans = new ArrayList<>();
