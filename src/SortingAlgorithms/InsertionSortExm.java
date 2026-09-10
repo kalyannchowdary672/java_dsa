@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class InsertionSortExm {
     public static void main(String[] args) {
-        int[] arr = {1, 3, 4, 2, 5};
+        int[] arr = {5,3,4,1,2};
         insertion(arr);
         System.out.print(Arrays.toString(arr));
 
