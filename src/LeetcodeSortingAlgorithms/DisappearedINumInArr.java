@@ -1,23 +1,29 @@
 package LeetcodeSortingAlgorithms;
 
-public class MissingNoInArr {
+import java.util.ArrayList;
+import java.util.List;
+
+public class DisappearedINumInArr {
     class Solution {
-        public int missingNumber(int[] nums) {
+        public List<Integer> findDisappearedNumbers(int[] nums) {
             int i = 0;
             while(i < nums.length){
-                int check = nums[i];
-                if(nums[i] < nums.length && nums[i] != nums[check]){
+                int check = nums[i] - 1;
+                if(nums[i] != nums[check]){
                     swap(nums , i , check);
                 }else{
                     i++;
                 }
             }
-            for( int index = 0 ; index < nums.length ; index++){
-                if(nums[index]  != index){
-                    return index;
+            List<Integer> ans = new ArrayList<>();
+            for(int index = 0; index < nums.length ; index++){
+                if(nums[index] != index + 1){
+                    ans.add(index + 1);
                 }
             }
-            return nums.length;
+            return ans;
+
+
         }
         static void swap(int[] nums, int first, int second){
             int temp = nums[first];
@@ -25,4 +31,6 @@ public class MissingNoInArr {
             nums[second] = temp;
         }
     }
+
+
 }
