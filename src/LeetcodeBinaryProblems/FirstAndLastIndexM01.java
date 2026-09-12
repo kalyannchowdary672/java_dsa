@@ -1,6 +1,6 @@
 package LeetcodeBinaryProblems;
 
-public class FirstAndLastIndex {
+public class FirstAndLastIndexM01 {
     class Solution {
         public int[] searchRange(int[] nums, int target) {
             int start = 0;
