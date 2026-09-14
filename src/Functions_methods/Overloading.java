@@ -6,7 +6,7 @@ public class Overloading {
 //       fun("kalyan");
 
         int ans =sum(15 , 18 ,78);
-        System.out.println(ans);
+        System.out.print(ans);
     }
     static int sum(int a , int b){
         return a + b;

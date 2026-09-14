@@ -5,7 +5,7 @@ public class TargetElement {
         int[] nums = {1, 2, 3, 89, 76, 65, 98};
         int target = 98;
         int ans = LinearSearch( nums ,target);
-        System.out.println(ans);
+        System.out.print(ans);
     }
     static int LinearSearch(int arr[] ,int target ){
         if( arr.length == 0 ){
