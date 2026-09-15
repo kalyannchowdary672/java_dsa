@@ -1,6 +1,6 @@
 package LeetcodeSortingAlgorithms;
 
-public class SpecialArray {class Solution {
+public class SpecialArray07 {class Solution {
     public int specialArray(int[] nums)
     {
         int n = nums.length;
