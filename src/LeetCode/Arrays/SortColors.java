@@ -23,10 +23,10 @@ public class SortColors {
 
 
             }
-            public void swap(int[] nums ,int first ,int second){
+            public void swap(int[] nums ,int first ,int sec){
                 int temp = nums[first];
-                nums[first] = nums[second];
-                nums[second] = temp;
+                nums[first] = nums[sec];
+                nums[sec] = temp;
 
             }
         }
