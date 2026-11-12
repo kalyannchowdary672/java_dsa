@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class PhonePad {
     public static void main(String[] args) {
-        System.out.println(phonePad("","12"));
+        System.out.println(padCount("","12"));
 
     }
     static void pad(String dul,String org){
@@ -32,5 +32,17 @@ public class PhonePad {
 
         }
         return list;
+    }static int padCount(String dul,String org){
+        if(org.isEmpty()){
+            return 1;
+        }
+        int count = 0;
+        int digit = org.charAt(0) - '0';
+        for(int i = (digit - 1) * 3;i < digit * 3;i++){
+            char ch = (char)('a' + i);
+            count += padCount(dul+ch,org.substring(1));
+        }
+        return count;
     }
+
 }
